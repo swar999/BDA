@@ -1,0 +1,58 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayesMultinomial 
+Relation:     Iris
+Instances:    150
+Attributes:   5
+              sepallength
+              sepalwidth
+              petallength
+              petalwidth
+              class
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+The independent probability of a class
+--------------------------------------
+Iris-setosa	0.3333333333333333
+Iris-versicolor	0.3333333333333333
+Iris-virginica	0.3333333333333333
+
+The probability of a word given the class
+-----------------------------------------
+	Iris-setosa	Iris-versicolor	Iris-virginica	
+sepallength	0.49168460183917045	0.41441692179237405	0.3837398373983741	
+sepalwidth	0.3373116806887108	0.19412747008071257	0.1738675958188154	
+petallength	0.14498141263940525	0.2978012802671862	0.32357723577235786	
+petalwidth	0.026022304832713748	0.09365432785972726	0.11881533101045302	
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correctly Classified Instances         143               95.3333 %
+Incorrectly Classified Instances         7                4.6667 %
+Kappa statistic                          0.93  
+Mean absolute error                      0.2826
+Root mean squared error                  0.3404
+Relative absolute error                 63.5748 %
+Root relative squared error             72.2156 %
+Total Number of Instances              150     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          1        Iris-setosa
+                 0.92      0.03       0.939     0.92      0.929      0.968    Iris-versicolor
+                 0.94      0.04       0.922     0.94      0.931      0.997    Iris-virginica
+Weighted Avg.    0.953     0.023      0.953     0.953     0.953      0.988
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 50  0  0 |  a = Iris-setosa
+  0 46  4 |  b = Iris-versicolor
+  0  3 47 |  c = Iris-virginica
