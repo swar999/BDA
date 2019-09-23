@@ -1,5 +1,5 @@
 # BDA
-Part I : R Programming
+<b>Part I : R Programming</b>
 
 1. Study of Big Data.
 
@@ -63,16 +63,16 @@ Part I : R Programming
 
 26. Write a R program to drop column(s) by name from a given data frame , to drop row(s) by number from a given data frame.
 
-Part II : Hadoop
+<b>Part II : Hadoop</b>
 
 
 1. Perform installation of Hadoop framework in Linux platform.
 
 
-Part III: MongoDB
+<b>Part III: MongoDB</b>
 
 
 1. Perform basic CRUD operations in student table using NoSQL database mongodb.
 
 
-Part IV: OEP
+<b>Part IV: OEP</b>
